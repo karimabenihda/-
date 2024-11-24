@@ -1,0 +1,63 @@
+/* Parent UL (if applicable) */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  max-width:fit-content; 
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding: 10px;
+  margin: 10px auto;
+  color: black;
+  max-width: 400px; 
+  overflow: hidden;
+  box-sizing: border-box; 
+  word-wrap: break-word;
+  overflow-wrap: break-word; 
+  white-space: normal; 
+}
+
+li p {
+  margin: 0;
+  padding: 0;
+  flex: 1; 
+  overflow-wrap: break-word; 
+  word-wrap: break-word;
+  white-space: normal; 
+  max-width: 100%; 
+}
+
+input{
+  border-radius: 5px;
+  padding: 10px;
+  margin-inline: 220px;
+}
+
+.container{
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+button{
+  background-color:#feb7c3;
+  color: #ffffff;
+  width: 100px;
+  border: 2px solid #feb7c3;
+  position: absolute;
+  right: 100px;
+  margin: 10px;
+}
+body {
+  background: linear-gradient(
+    to bottom, 
+    #ebb2b4 0%, 
+    #fad0c4 50%, 
+    #fbc2eb 100% 
+  );
+}
