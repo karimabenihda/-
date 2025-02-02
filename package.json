@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "postcss src/styles.css -o dist/styles.css",
+    "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
